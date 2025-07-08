@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Barath MN | Product Manager</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <img src="assets/profile.jpg" alt="Barath MN" class="profile-pic"/>
+    <h1>Barath MN</h1>
+    <h2>Product Manager</h2>
+    <p>Experienced Product Manager with 3.7 years of experience leading high-impact digital solutions across B2B and B2C domains. Strong track record in full-cycle product delivery, cross-regional platform rollouts, and integration of AI and low-code platforms.</p>
+    <a href="resume.pdf" download>Download Resume</a>
+  </header>
+
+  <nav>
+    <button onclick="showTab('about')">About</button>
+    <button onclick="showTab('skills')">Skills</button>
+    <button onclick="showTab('projects')">Projects</button>
+    <button onclick="showTab('contact')">Contact</button>
+  </nav>
+
+  <main>
+    <section id="about" class="tab active">
+      <h3>About Me</h3>
+      <p>I blend user research with data analytics to drive business transformation. Passionate about building user-focused digital experiences and automating workflows using no-code tools.</p>
+    </section>
+
+    <section id="skills" class="tab">
+      <h3>Skills</h3>
+      <ul>
+        <li><strong>Languages:</strong> JavaScript, HTML/CSS, basic Python</li>
+        <li><strong>Product Tools:</strong> JIRA, Figma, GA, Notion, Trello, HubSpot, Airtable</li>
+        <li><strong>No-Code:</strong> Zoho Creator, n8n, Zapier, Plane.so, Typeform, Balsamiq</li>
+        <li><strong>Integration:</strong> Stripe, PayPal</li>
+        <li><strong>Reporting:</strong> BigQuery, Zoho Analytics</li>
+        <li><strong>Docs:</strong> BRD, PRD, FRD, SAD</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="tab">
+      <h3>Projects</h3>
+      <ul>
+        <li><strong>Invoice/Voucher Generator:</strong> Generates a printable invoice format. <a href="projects/invoice.html">View Demo</a></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="tab">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:bnickam@gmail.com">bnickam@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/barath-mn-21828b199/" target="_blank">Barath MN</a></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
