@@ -5,95 +5,45 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Barath MN | Product Manager</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="1676746409950.jpeg" alt="Barath MN" class="profile-pic"/>
-    <h1>Barath MN</h1>
-    <h2>Product Manager</h2>
-    <p>Experienced Product Manager with 3.7 years of experience leading high-impact digital solutions across B2B and B2C domains. Strong track record in full-cycle product delivery, cross-regional platform rollouts, and integration of AI and low-code platforms.</p>
-    <a href="resume.pdf" download>Download Resume</a>
+  <header class="hero">
+    <h1>Hi, I'm <span class="highlight">Barath MN</span></h1>
+    <p>Product Manager | No-Code Builder | Digital Strategist</p>
+    <a href="resume.pdf" class="btn" download>Download Resume</a>
   </header>
 
-  <nav>
-    <button onclick="showTab('about')">About</button>
-    <button onclick="showTab('skills')">Skills</button>
-    <button onclick="showTab('projects')">Projects</button>
-  </nav>
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Experienced Product Manager with 3.7 years of experience leading high-impact digital solutions across B2B and B2C domains. Specialized in full-cycle delivery, automation, and AI integrations.</p>
+  </section>
 
-  <main>
-    <section id="about" class="tab active">
-      <h3>Professional Summary</h3>
-      <p>Experienced Product Manager with 3.7 years of experience leading high-impact digital solutions across B2B and B2C domains. Known for blending user research with data analytics to drive business transformation.</p>
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Product Strategy & Execution</li>
+      <li>AI Prompt Engineering</li>
+      <li>No-Code Tools: Zoho Creator, n8n</li>
+      <li>BigQuery, Zapier, API Integration</li>
+      <li>Documentation: BRD, PRD, FRD, SAD</li>
+    </ul>
+  </section>
 
-      <h3>Product and Technical Experience</h3>
-      <ul>
-        <li><strong>Spacematrix:</strong> 
-Designed and rolled out a multi-region project management platform (Singapore,China, Manila).
-Built dashboards: Project Overview, Timesheet Compliance, and ProjectManagement.
-Delivered reports: Project Closure, Billing, NPS, DLP Status, and Resource Tagging.
-Integrated Zoho Analytics with BigQuery via API sync scripts.
-Led UI/UX design for Planned Cash Flow, Project Compliance, Internal Detail Design.
-Conducted UAT, stakeholder demos, and training sessions.
-Implemented Workplace DNA survey analysis with radar chart & LLM-based summary generation.
-Coordinated with Zoho on bugs, components, and rollout requirements.
-Managed bi-weekly platform releases and end-to-end QA testing.
-Initiated Blink setup in Airtable and implemented Plane.so for internal use.</li>
-        <li><strong>Pharmeasy / Aknamed:</strong> 
-Managed contracts with suppliers, achieving a 7% average reduction in manufacturing costs.
-Collaborated with engineering teams to incorporate sustainable materials,reducing production waste by 50%.
-Boosted annual sales by 15% through development of user-centric product features based on customer feedback.
-Analyzed market trends and redesigned underperforming products, resultingin a 20% sales increase.</li>
-        <li><strong>Ghack (E-War):</strong> 
-Improved onboarding using Python & GA; boosted user base by 45%.
-Worked on engagement and acquisition via Google Ads/Facebook campaigns.</li>
-        <li><strong>Swiggy:</strong> 
-Optimized food delivery efficiency, reaching 78% market penetration.
-Used data analytics to reduce delivery time by 30%.
-Enhanced customer satisfaction via CRM and process optimization.</li>
-      </ul>
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Invoice/Voucher Generator</h3>
+      <p>Generate invoices and vouchers for download or print.</p>
+      <a href="projects/invoice.html" target="_blank">View Demo</a>
+    </div>
+  </section>
 
-      <h3>Education</h3>
-      <p><strong>B.Tech in Electronics & Communication</strong> – CMR University, Bangalore (2020)</p>
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:bnickam@gmail.com">bnickam@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/barath-mn-21828b199/" target="_blank">Barath MN</a></p>
+  </section>
 
-      <h3>Contact</h3>
-      <p>Email: <a href="mailto:bnickam@gmail.com">bnickam@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/barath-mn-21828b199/" target="_blank">Barath MN</a></p>
-    </section>
-
-    <section id="skills" class="tab">
-      <h3>Core Competencies</h3>
-      <ul>
-        <li>Product Strategy & Execution</li>
-        <li>AI Prompt Engineering & Automation</li>
-        <li>No-Code Platforms: Zoho Creator, n8n, Airtable</li>
-        <li>UI/UX Wireframing & Development</li>
-        <li>Data Analysis & Visualization</li>
-        <li>Agile / Scrum, Jira & Plane.so</li>
-        <li>Stakeholder & Client Communication</li>
-        <li>BigQuery Reporting & API Integration</li>
-      </ul>
-
-      <h3>Technical Toolkit</h3>
-      <ul>
-        <li><strong>Languages:</strong> JavaScript, HTML/CSS, basic Python</li>
-        <li><strong>Product Tools:</strong> JIRA, Figma, GA, Notion, Trello, HubSpot, Airtable</li>
-        <li><strong>No-Code:</strong> Zoho Creator, n8n, Zapier, Plane.so, Typeform, Balsamiq</li>
-        <li><strong>Integration:</strong> Stripe, PayPal</li>
-        <li><strong>Reporting:</strong> BigQuery, Zoho Analytics</li>
-        <li><strong>Documentation:</strong> BRD, PRD, FRD, SAD</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="tab">
-      <h3>Projects</h3>
-      <ul>
-        <li><strong>Invoice/Voucher Generator:</strong> Generates a printable invoice format. <a href="projects/invoice.html">View Demo</a></li>
-      </ul>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
 </body>
 </html>
